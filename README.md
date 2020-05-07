@@ -1,6 +1,6 @@
 # README
 # THP - Week 5 - Project 4 - The Gossip Project : Facebook style
-# VALENTIN FIGUEIREDO
+# VALENTIN FIGUEIREDO & ANDY HAZARD
 
 
 
@@ -9,7 +9,9 @@
 Setup is usual :
  -run in commandline from folder :
  	- bundle install
-	- rails db:setup
+	- rails db:create
+	- rails db:migrate
+	- rails db:seed (wait)
 	- rails s
 - go to http://localhost:3000
 
